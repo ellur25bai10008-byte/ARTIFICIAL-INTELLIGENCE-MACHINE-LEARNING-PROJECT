@@ -21,9 +21,10 @@ while True:
     print("=======WELCOME TO HOTEL BOOKING SYSTEM=======")
     print("1.VIEW ROOMS ")
     print("2.BOOK ROOMS")
-    print("3.EXTEND STAY(only after booking)")
-    print("4.CHECKOUT ROOM")
-    print("5.EXIT")
+    print("3.EXTEND STAY(only after booking")
+    print("4.Feedback")
+    print("5.CHECKOUT ROOM")
+    print("6.EXIT")
     try:
         Selection=int(input("Enter the choice from above options"))
     except ValueError:
@@ -312,8 +313,20 @@ while True:
                         break
             elif option1==2:
                 break
-
     elif Selection==4:
+        print("FIRSTLY THANK YOU FOR PERFERING OUR HOTEL FOR STAY")
+        while True:
+            try:
+                feedback=input("WE HOPE THAT YOU HAVE ENJOYED OUR SERVICES . ON THE BASIS OF YOUR EXPERIENCE PLEASE CAN YOU GIVE US FEEBACK AND IMPROVEMENT NEED TO BE DONE ")
+                print("thank you for feedback")
+                break
+            except ValueError:
+                print("please provide valid feedback")
+                
+            
+            
+
+    elif Selection==5:
         while True:
             print("1.CHECKOUT")
             print("2.EXIT")
@@ -351,7 +364,7 @@ while True:
             elif option==2:
                 break
                     
-    elif Selection==5:
+    elif Selection==6:
         print("BYE, HAVE A NICE DAY")
         break
         
