@@ -21,9 +21,6 @@ Ensure Python is installed on your system.
 
 Run the script using: python hotel_system.py
 
-Follow the on-screen menu instructions.
-
-2. Project Report
-Date: March 30, 2026
+Follow the on-screen menu instructions
 
 Subject: Implementation of Hotel Management System
